@@ -1,0 +1,15 @@
+/* CUSTOM PROPERTIES */
+
+:root {
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-primary-200: hsl(0, 0%, 80%);
+
+  --clr-primary-800: hsl(0, 0%, 20%);
+  --clr-primary-900: hsl(0, 0%, 0%);
+
+  --clr-primary-accent-300: hsl(150, 81%, 51%);
+  --clr-primary-accent-400: hsl(153, 100%, 46%);
+
+  --clr-secondary-accent-200: hsl(223, 21%, 94%);
+  --clr: #f7f7f9;
+}
