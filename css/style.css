@@ -262,6 +262,20 @@ ul {
   padding-left: 2rem;
 }
 
+@media (max-width: 48rem) {
+  .text--xl {
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  .categories__text {
+    font-size: 1.2rem;
+  }
+
+  .categories__covers {
+    grid-template-columns: 1fr;
+  }
+}
 /* UTILITY CLASSES */
 
 .btn {
