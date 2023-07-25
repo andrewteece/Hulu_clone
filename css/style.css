@@ -564,6 +564,7 @@ ul {
   background: var(--clr-primary-100);
   color: var(--clr-primary-800);
   position: relative;
+  border-radius: 12px;
   animation: modalopen 1s;
 }
 
@@ -591,12 +592,12 @@ ul {
 }
 
 .modal--close {
-  cursor: pointer;
+  position: absolute;
   width: 25px;
   height: 25px;
-  position: absolute;
   top: 20px;
   right: 20px;
+  cursor: pointer;
 }
 
 .modal__footer {
@@ -608,10 +609,10 @@ ul {
 }
 
 .modal__footer a {
-  color: steelblue;
+  color: var(--clr-primary-accent-400);
 }
 
-/* Modal -- FORM */
+/* MODAL -- FORM */
 
 .form--control {
   margin: 1.25rem 0;
@@ -628,4 +629,10 @@ ul {
   border: 2px solid var(--clr-primary-200);
   border-radius: 5px;
   padding: 5px;
+}
+
+@media (max-width: 48rem) {
+  .modal__box {
+    width: 21.875rem;
+  }
 }
